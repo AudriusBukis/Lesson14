@@ -36,7 +36,7 @@ namespace Lesson14.Models
             Console.WriteLine($"Cannot not add additional items to a deluxe burger");
         }
 
-        public new double ItemizeHamburger()
+        public override double ItemizeHamburger()
         {
             double chips = 2.75;
             double drink = 1.81;
