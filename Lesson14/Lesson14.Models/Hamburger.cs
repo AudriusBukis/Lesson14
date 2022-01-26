@@ -27,12 +27,12 @@ namespace Lesson14.Models
             Console.WriteLine($"{Name} hamburger on a {BreadRollType} roll with {Meat}, price is {Price}");
             
         }
-        public Hamburger()
+        protected Hamburger() // protected constructors only visible in inheritance class
         {
 
         }
 
-        public Hamburger(string meat, double price)
+        protected Hamburger(string meat, double price)
         {
             Meat = meat;
             Price = price;

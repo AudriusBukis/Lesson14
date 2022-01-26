@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Lesson14.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Lesson14.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lesson14.Models.dll": {}
+        }
       }
     }
   },
@@ -5906,10 +5916,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Lesson14.Models/1.0.0": {
+      "type": "project",
+      "path": "../Lesson14.Models/Lesson14.Models.csproj",
+      "msbuildProject": "../Lesson14.Models/Lesson14.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Lesson14.Models >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
@@ -5947,7 +5963,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\audri\\Documents\\Code_Academy_mokymai\\lesson14\\Lesson14\\Lesson14.Models\\Lesson14.Models.csproj": {
+              "projectPath": "C:\\Users\\audri\\Documents\\Code_Academy_mokymai\\lesson14\\Lesson14\\Lesson14.Models\\Lesson14.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

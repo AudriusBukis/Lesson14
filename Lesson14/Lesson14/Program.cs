@@ -27,6 +27,7 @@ namespace Lesson14
             Console.WriteLine("Total Deluxe Burger price is " + db.ItemizeHamburger());
             Console.WriteLine();
             Console.ReadKey();
+           
         }
 
 
