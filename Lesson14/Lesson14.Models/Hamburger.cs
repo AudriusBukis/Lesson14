@@ -62,7 +62,7 @@ namespace Lesson14.Models
             Addition4Price = addition4Price;
             Console.WriteLine($"Added {Addition4Name} for an extra {Addition4Price}");
         }
-        public double ItemizeHamburger()
+        public virtual double ItemizeHamburger()
         {
             return Math.Round(Price + Addition1Price + Addition2Price + Addition3Price + Addition4Price, 2);
         }

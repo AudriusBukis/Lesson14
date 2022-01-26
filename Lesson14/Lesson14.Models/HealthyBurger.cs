@@ -35,7 +35,7 @@ namespace Lesson14.Models
             Console.WriteLine($"Added {HealthyExtra2Name} for an extra {HealthyExtra2Price}");
         }
        
-        public new double ItemizeHamburger()
+        public override double ItemizeHamburger()
         {
             return Math.Round(Price + Addition1Price + Addition2Price + Addition3Price + Addition4Price + HealthyExtra1Price + HealthyExtra2Price, 2);
         }
