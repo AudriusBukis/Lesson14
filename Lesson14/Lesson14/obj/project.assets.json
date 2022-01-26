@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Lesson14.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Lesson14.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lesson14.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Lesson14.Models/1.0.0": {
+      "type": "project",
+      "path": "../Lesson14.Models/Lesson14.Models.csproj",
+      "msbuildProject": "../Lesson14.Models/Lesson14.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Lesson14.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\audri\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\audri\\Documents\\Code_Academy_mokymai\\lesson14\\Lesson14\\Lesson14.Models\\Lesson14.Models.csproj": {
+              "projectPath": "C:\\Users\\audri\\Documents\\Code_Academy_mokymai\\lesson14\\Lesson14\\Lesson14.Models\\Lesson14.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
